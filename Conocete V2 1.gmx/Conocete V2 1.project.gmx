@@ -26,13 +26,17 @@
       <sprite>sprites\sprite13</sprite>
     </sprites>
     <sprites name="Plataforma">
-      <sprite>sprites\spr_Jugador</sprite>
       <sprite>sprites\spr_Rueda</sprite>
       <sprite>sprites\spr_Enemigo</sprite>
       <sprite>sprites\spr_Casco</sprite>
       <sprite>sprites\spr_Combustible</sprite>
       <sprite>sprites\spr_Municion</sprite>
       <sprite>sprites\spr_Pared</sprite>
+      <sprites name="Jugador">
+        <sprite>sprites\spr_Jugador</sprite>
+        <sprite>sprites\SprRunDer</sprite>
+        <sprite>sprites\SprRunIzq</sprite>
+      </sprites>
     </sprites>
     <sprites name="Shooter">
       <sprite>sprites\spr_Nave</sprite>
@@ -115,13 +119,13 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Nivel2</room>
-    <room>rooms\Interlude</room>
-    <room>rooms\Nivel1R1</room>
     <room>rooms\Nivel1R2</room>
     <room>rooms\Interlude_2</room>
+    <room>rooms\Nivel2</room>
     <room>rooms\Interlude_3</room>
     <room>rooms\Nivel3</room>
+    <room>rooms\Interlude</room>
+    <room>rooms\Nivel1R1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
